@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
-  searchText:string ="means wear";
+  searchText:string ="";
 
   // for ngModel this function not useful it do it automatically when searchText changes
   // updateSearchText(event:any){
