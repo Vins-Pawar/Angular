@@ -1,0 +1,30 @@
+.product {
+  padding: 10px 20px;
+  margin: 5px 5px;
+}
+
+.product-card {
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+.product-buttons {
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.product-buttons button {
+  padding: 5px;
+}
+.product-cart-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-cart-buttons button {
+  margin: 5px;
+}

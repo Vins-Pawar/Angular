@@ -1,0 +1,48 @@
+<div class="product">
+  <!-- <div class="product-card">
+    <img [src]="product.pImage" width="300px" height="300px" />
+    <p>Name : {{ product.name }}</p>
+    <p>Price : {{ product.price + " rs" }}</p>
+    <p>Color : {{ product.color }}</p>
+    <p>Discounted Price : {{ product.discount + " %" }}</p>
+    <p>Discounted Price : {{ getDiscountedPrice().toFixed(2) + " rs" }}</p>
+    <p>
+      {{
+        product.stock > 0
+          ? product.stock + " items avaliable in stocks"
+          : "Out Of Stocks"
+      }}
+    </p>
+    <div class="product-buttons">
+      <div class="product-cart-buttons">
+        <button (click)="decrementCartValue()" [disabled]="product.cart === 0">
+          -
+        </button>
+        {{ product.cart }}
+        <button
+          (click)="incrementCartValue()"
+          [disabled]="product.cart === product.stock"
+        >
+          +
+        </button>
+      </div>
+      <button class="buy-button" [disabled]="!(product.stock > 0)">
+        Buy Now
+      </button>
+    </div>
+    <p>
+      Give FeedBack
+      <input
+        type="text"
+        [value]="feedback"
+        (input)="onFeedbackChange($event)"
+      />
+    </p>
+    <p>FeedBack : {{ feedback }}</p>
+  </div> -->
+  <app-search></app-search>
+  
+  <div *ngFor="let item of [2,4,6,8,10]">
+    <p>Element is {{item}}</p>
+  </div>
+</div>
